@@ -1,0 +1,12 @@
+name: 'install-pinned/poetry'
+description: 'Securely install the latest poetry release from PyPI'
+branding:
+  icon: 'lock'
+  color: 'green'
+runs:
+  using: "composite"
+  steps:
+    - shell: bash
+      run: |
+        pyver=$(python -c 'import sys; print(f"{sys.version_info.major}.{sys.version_info.minor}")')
+        pip install -r $GITHUB_ACTION_PATH/pins/requirements-$pyver.txt
