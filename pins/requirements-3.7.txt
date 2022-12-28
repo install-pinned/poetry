@@ -197,9 +197,9 @@ dulwich==0.20.50 \
     --hash=sha256:f08406b6b789dea5c95ba1130a0801d8748a67f18be940fe7486a8b481fde875 \
     --hash=sha256:fbb6368f18451dc44c95c55e1a609d1a01d3821f7ed480b22b2aea1baca0f4a7
     # via poetry
-filelock==3.8.2 \
-    --hash=sha256:7565f628ea56bfcd8e54e42bdc55da899c85c1abfe1b5bcfd147e9188cebb3b2 \
-    --hash=sha256:8df285554452285f79c035efb0c861eb33a4bcfa5b7a137016e32e6a90f9792c
+filelock==3.9.0 \
+    --hash=sha256:7b319f24340b51f55a2bf7a12ac0755a9b03e718311dac567a0f4f7fabd2f5de \
+    --hash=sha256:f58d535af89bb9ad5cd4df046f741f8553a418c01a7856bf0d173bbc9f6bd16d
     # via
     #   poetry
     #   virtualenv
@@ -324,9 +324,9 @@ pkgutil-resolve-name==1.3.10 \
     --hash=sha256:357d6c9e6a755653cfd78893817c0853af365dd51ec97f3d358a819373bbd174 \
     --hash=sha256:ca27cc078d25c5ad71a9de0a7a330146c4e014c2462d9af19c6b828280649c5e
     # via jsonschema
-platformdirs==2.6.0 \
-    --hash=sha256:1a89a12377800c81983db6be069ec068eee989748799b946cce2a6e80dcc54ca \
-    --hash=sha256:b46ffafa316e6b83b47489d240ce17173f123a9b9c83282141c3daf26ad9ac2e
+platformdirs==2.6.1 \
+    --hash=sha256:69de5933ec873bd7ddae497f004be17cf200bce048dc987c28fc4e347d5349ff \
+    --hash=sha256:e13f076e0f725f1beb58e7d26f80eff94099941740d3c664db03efecd6561271
     # via
     #   poetry
     #   virtualenv
