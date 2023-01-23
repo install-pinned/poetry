@@ -8,42 +8,38 @@ on:
 
 jobs:
   update_pins:
+    strategy:
+      matrix:
+        os: [windows-latest, ubuntu-latest, macos-latest]
+        py: ["3.7", "3.8", "3.9", "3.10", "3.11"]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: main
+      - uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.py }}
+      - run: pip install pip-tools==6.12.1
+      - run: mkdir new-pins
+      - run: pip-compile --upgrade --allow-unsafe --generate-hashes pins/requirements.in -o new-pins/requirements-${{ matrix.py }}-${{ runner.os }}.txt 
+      - uses: actions/upload-artifact@v3
+        with:
+          name: requirements
+          path: new-pins/
+
+  update_repo:
+    needs: update_pins
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
         with:
           ref: main
-
-      - uses: actions/setup-python@v4
+      - run: rm pins/requirements-*.txt
+      - uses: actions/download-artifact@v3
         with:
-          python-version: '3.7'
-      - run: pip install pip-tools==6.9.0
-      - run: pip-compile --upgrade --allow-unsafe --generate-hashes pins/requirements.in -o pins/requirements-3.7.txt
-
-      - uses: actions/setup-python@v4
-        with:
-          python-version: '3.8'
-      - run: pip install pip-tools==6.9.0
-      - run: pip-compile --upgrade --allow-unsafe --generate-hashes pins/requirements.in -o pins/requirements-3.8.txt
-
-      - uses: actions/setup-python@v4
-        with:
-          python-version: '3.9'
-      - run: pip install pip-tools==6.9.0
-      - run: pip-compile --upgrade --allow-unsafe --generate-hashes pins/requirements.in -o pins/requirements-3.9.txt
-
-      - uses: actions/setup-python@v4
-        with:
-          python-version: '3.10'
-      - run: pip install pip-tools==6.9.0
-      - run: pip-compile --upgrade --allow-unsafe --generate-hashes pins/requirements.in -o pins/requirements-3.10.txt
-
-      - uses: actions/setup-python@v4
-        with:
-          python-version: '3.11'
-      - run: pip install pip-tools==6.9.0
-      - run: pip-compile --upgrade --allow-unsafe --generate-hashes pins/requirements.in -o pins/requirements-3.11.txt
-
+          name: requirements
+          path: pins/
       - id: commit
         run: |
           if [ -n "$(git status --porcelain)" ]; then
