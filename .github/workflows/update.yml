@@ -8,40 +8,22 @@ on:
 
 jobs:
   update_pins:
-    strategy:
-      matrix:
-        os: [windows-latest, ubuntu-latest, macos-latest]
-        py: ["3.7", "3.8", "3.9", "3.10", "3.11"]
-    runs-on: ${{ matrix.os }}
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
         with:
           ref: main
       - uses: actions/setup-python@v4
         with:
-          python-version: ${{ matrix.py }}
-      - run: pip install pip-tools==6.12.1
-      - run: mkdir new-pins
-      - run: pip-compile --upgrade --allow-unsafe --generate-hashes pins/requirements.in -o new-pins/requirements-${{ matrix.py }}-${{ runner.os }}.txt 
-      - uses: actions/upload-artifact@v3
-        with:
-          name: requirements
-          path: new-pins/
+          python-version: 3.11
 
-  update_repo:
-    needs: update_pins
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-        with:
-          ref: main
-      - run: rm -f pins/requirements-*.txt
-      - uses: actions/download-artifact@v3
-        with:
-          name: requirements
-          path: pins/
-      - id: commit
-        run: |
+      - name: Install poetry from PyPI
+        uses: install-pinned/poetry@d95a199a06c2eb4e23169dd4f7139bb645b9dbe2  # 1.3.2
+      - run: poetry init   --directory ${{ runner.temp }} --no-interaction --name lockenv --python ">=3.7"
+      - run: poetry add    --directory ${{ runner.temp }} --no-interaction --lock poetry                      
+      - run: poetry export --directory ${{ runner.temp }} --no-interaction -o requirements.txt             
+
+      - run: |
           if [ -n "$(git status --porcelain)" ]; then
             git config --global user.name "install-pinned bot"
             git config --global user.email "install-pinned@users.noreply.github.com"

@@ -7,6 +7,4 @@ runs:
   using: "composite"
   steps:
     - shell: bash
-      run: |
-        pyver=$(python3 -c 'import sys; print(f"{sys.version_info.major}.{sys.version_info.minor}")')
-        python3 -m pip install -r $GITHUB_ACTION_PATH/pins/requirements-$pyver-$RUNNER_OS.txt
+      run: python3 -m pip install -r $GITHUB_ACTION_PATH/requirements.txt
