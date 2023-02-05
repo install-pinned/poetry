@@ -24,29 +24,36 @@ jobs:
       - name: "Run poetry add poetry ..."
         shell: python
         run: |
-          import re
-          import subprocess
-          try:
-              subprocess.run([
-                  "poetry", "add", 
-                  "--directory", "${{ runner.temp }}", 
-                  "--no-interaction", 
-                  "--lock",
-                  "poetry"
-              ], check=True, capture_output=True, text=True) 
-          except subprocess.CalledProcessError as e:
-              if m := re.search(r'set the `python` property to "(.+?)"', e.stderr):
-                  print(f"Retrying with --python {m[1]}...")
-                  subprocess.run([
-                      "poetry", "add", 
-                      "--directory", "${{ runner.temp }}", 
-                      "--no-interaction", 
-                      "--lock",
-                      "--python", m[1],
-                      "poetry"
-                  ], check=True) 
-              else:
-                  raise
+            import re
+            import subprocess
+
+            def add(pyver: str):
+                subprocess.run([
+                    "poetry", "add",
+                    "--directory", "${{ runner.temp }}",
+                    "--no-interaction",
+                    "--lock",
+                    "--python", pyver,
+                    "poetry"
+                ], check=True, capture_output=True, text=True)
+
+            try:
+                add("*")
+            except subprocess.CalledProcessError as e:
+                if (m := re.search(r'set the `python` property to "(.+?)"', e.stderr)) is None:
+                    raise
+                print(f"Retrying with --python {m[1]}...")
+
+                try:
+                    add(m[1])
+                except subprocess.CalledProcessError as e:
+                    if (m := re.search(r'set the `python` property to "(.+?)"', e.stderr)) is None:
+                        raise
+                    print(f"Retrying with --python {m[1]}...")
+
+                    # We need to retry twice for some projects.
+                    add(m[1])
+
       - run: poetry export -o requirements.txt --directory ${{ runner.temp }} --no-interaction
 
       - run: |
