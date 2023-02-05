@@ -20,7 +20,7 @@ jobs:
       - name: Install poetry from PyPI
         uses: install-pinned/poetry@d95a199a06c2eb4e23169dd4f7139bb645b9dbe2  # 1.3.2
 
-      - run: poetry init --name lockenv --python "*" --directory ${{ runner.temp }} --no-interaction
+      - run: poetry init --name lockenv --python "^3.7" --directory ${{ runner.temp }} --no-interaction
       - name: "Run poetry add poetry ..."
         shell: python
         run: |
