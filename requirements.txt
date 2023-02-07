@@ -531,9 +531,9 @@ urllib3==1.26.14 ; python_version >= "3.7" and python_version < "4.0" \
 virtualenv==20.16.5 ; sys_platform == "win32" and python_version == "3.9" \
     --hash=sha256:227ea1b9994fdc5ea31977ba3383ef296d7472ea85be9d6732e42a91c04e80da \
     --hash=sha256:d07dfc5df5e4e0dbc92862350ad87a36ed505b978f6c39609dc489eadd5b0d27
-virtualenv==20.17.1 ; python_version >= "3.7" and python_version < "4.0" and sys_platform != "win32" or python_version >= "3.7" and python_version < "4.0" and python_version != "3.9" \
-    --hash=sha256:ce3b1684d6e1a20a3e5ed36795a97dfc6af29bc3970ca8dab93e11ac6094b3c4 \
-    --hash=sha256:f8b927684efc6f1cc206c9db297a570ab9ad0e51c16fa9e45487d36d1905c058
+virtualenv==20.18.0 ; python_version >= "3.7" and python_version < "4.0" and sys_platform != "win32" or python_version >= "3.7" and python_version < "4.0" and python_version != "3.9" \
+    --hash=sha256:9d61e4ec8d2c0345dab329fb825eb05579043766a4b26a2f66b28948de68c722 \
+    --hash=sha256:f262457a4d7298a6b733b920a196bf8b46c8af15bf1fd9da7142995eff15118e
 webencodings==0.5.1 ; python_version >= "3.7" and python_version < "4.0" \
     --hash=sha256:a0af1213f3c2226497a97e2b3aa01a7e4bee4f403f95be16fc9acd2947514a78 \
     --hash=sha256:b36a1c245f2d304965eb4e0a82848379241dc04b865afcc4aab16748587e1923
