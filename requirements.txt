@@ -610,6 +610,6 @@ xattr==0.10.1 ; python_version >= "3.7" and python_version < "4.0" and sys_platf
     --hash=sha256:f55a2dd73a12a1ae5113c5d9cd4b4ab6bf7950f4d76d0a1a0c0c4264d50da61d \
     --hash=sha256:fc354f086f926a1c7f04886f97880fed1a26d20e3bc338d0d965fd161dbdb8ab \
     --hash=sha256:ffcb57ca1be338d69edad93cf59aac7c6bb4dbb92fd7bf8d456c69ea42f7e6d2
-zipp==3.14.0 ; python_version >= "3.7" and python_version < "3.12" \
-    --hash=sha256:188834565033387710d046e3fe96acfc9b5e86cbca7f39ff69cf21a4128198b7 \
-    --hash=sha256:9e5421e176ef5ab4c0ad896624e87a7b2f07aca746c9b2aa305952800cb8eecb
+zipp==3.15.0 ; python_version >= "3.7" and python_version < "3.12" \
+    --hash=sha256:112929ad649da941c23de50f356a2b5570c954b65150642bccdd66bf194d224b \
+    --hash=sha256:48904fc76a60e542af151aded95726c1a5c34ed43ab4134b597665c86d7ad556
