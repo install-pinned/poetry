@@ -243,9 +243,9 @@ dulwich==0.21.3 ; python_version >= "3.7" and python_version < "4.0" \
     --hash=sha256:e3b686b49adeb7fc45791dfae96ffcffeba1038e8b7603f369d6661f59e479fc \
     --hash=sha256:e7b8cb38a93de87b980f882f0dcd19f2e3ad43216f34e06916315cb3a03e6964 \
     --hash=sha256:f4f8ff776ca38ce272d9c164a7f77db8a54a8cad6d9468124317adf8732be07d
-filelock==3.10.6 ; python_version >= "3.7" and python_version < "4.0" \
-    --hash=sha256:409105becd604d6b176a483f855e7e8903c5cb2873e47f2c64f66a370c046aaf \
-    --hash=sha256:52f119747b2b9c4730dac715a7b1ab34b8ee70fd9259cba158ee53da566387ff
+filelock==3.10.7 ; python_version >= "3.7" and python_version < "4.0" \
+    --hash=sha256:892be14aa8efc01673b5ed6589dbccb95f9a8596f0507e232626155495c18105 \
+    --hash=sha256:bde48477b15fde2c7e5a0713cbe72721cb5a5ad32ee0b8f419907960b9d75536
 html5lib==1.1 ; python_version >= "3.7" and python_version < "4.0" \
     --hash=sha256:0d78f8fde1c230e99fe37986a60526d7049ed4bf8a9fadbad5f00e22e58e041d \
     --hash=sha256:b2e5b40261e20f354d198eae92afc10d750afb487ed5e50f9c4eaf07c184146f
@@ -515,9 +515,9 @@ six==1.16.0 ; python_version >= "3.7" and python_version < "4.0" \
 tomli==2.0.1 ; python_version >= "3.7" and python_version < "3.11" \
     --hash=sha256:939de3e7a6161af0c887ef91b7d41a53e7c5a1ca976325f429cb46ea9bc30ecc \
     --hash=sha256:de526c12914f0c550d15924c62d72abc48d6fe7364aa87328337a31007fe8a4f
-tomlkit==0.11.6 ; python_version >= "3.7" and python_version < "4.0" \
-    --hash=sha256:07de26b0d8cfc18f871aec595fda24d95b08fef89d147caa861939f37230bf4b \
-    --hash=sha256:71b952e5721688937fb02cf9d354dbcf0785066149d2855e44531ebdd2b65d73
+tomlkit==0.11.7 ; python_version >= "3.7" and python_version < "4.0" \
+    --hash=sha256:5325463a7da2ef0c6bbfefb62a3dc883aebe679984709aee32a317907d0a8d3c \
+    --hash=sha256:f392ef70ad87a672f02519f99967d28a4d3047133e2d1df936511465fbb3791d
 trove-classifiers==2023.3.9 ; python_version >= "3.7" and python_version < "4.0" \
     --hash=sha256:06fd10c95d285e7ddebd59e6a4ba299f03d7417d38d369248a4a40c9754a68fa \
     --hash=sha256:ee42f2f8c1d4bcfe35f746e472f07633570d485fab45407effc0379270a3bb03
