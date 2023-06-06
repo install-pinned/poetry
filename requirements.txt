@@ -7,9 +7,9 @@ backports-cached-property==1.0.2 ; python_version >= "3.7" and python_version < 
 build==0.10.0 ; python_version >= "3.7" and python_version < "4.0" \
     --hash=sha256:af266720050a66c893a6096a2f410989eeac74ff9a68ba194b3f6473e8e26171 \
     --hash=sha256:d5b71264afdb5951d6704482aac78de887c80691c52b88a9ad195983ca2c9269
-cachecontrol[filecache]==0.12.13 ; python_version >= "3.7" and python_version < "4.0" \
-    --hash=sha256:431fc10c5ab1a1589ce08c05b948abac31c0f76962d5fc9efab9da280c9790aa \
-    --hash=sha256:e28ab6c7b57ff53a7f9a6a8431fff021fb7437794ec581884773610bb8ce3f82
+cachecontrol[filecache]==0.12.14 ; python_version >= "3.7" and python_version < "4.0" \
+    --hash=sha256:1c2939be362a70c4e5f02c6249462b3b7a24441e4f1ced5e9ef028172edf356a \
+    --hash=sha256:d1087f45781c0e00616479bfd282c78504371ca71da017b49df9f5365a95feba
 certifi==2023.5.7 ; python_version >= "3.7" and python_version < "4.0" \
     --hash=sha256:0f0d56dc5a6ad56fd4ba36484d6cc34451e1c6548c61daad8c320169f91eddc7 \
     --hash=sha256:c6c2e98f5c7869efca1f8916fed228dd91539f9f1b444c314c06eef02980c716
