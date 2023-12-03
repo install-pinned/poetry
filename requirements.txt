@@ -253,9 +253,9 @@ filelock==3.13.1 ; python_version >= "3.8" and python_version < "4.0" \
 idna==3.6 ; python_version >= "3.8" and python_version < "4.0" \
     --hash=sha256:9ecdbbd083b06798ae1e86adcbfe8ab1479cf864e4ee30fe4e46a003d12491ca \
     --hash=sha256:c05567e9c24a6b9faaa835c4821bad0590fbb9d5779e7caa6e1cc4978e7eb24f
-importlib-metadata==6.9.0 ; python_version >= "3.8" and python_version < "3.12" \
-    --hash=sha256:1c8dc6839ddc9771412596926f24cb5a553bbd40624ee2c7e55e531542bed3b8 \
-    --hash=sha256:e8acb523c335a91822674e149b46c0399ec4d328c4d1f6e49c273da5ff0201b9
+importlib-metadata==6.10.0 ; python_version >= "3.8" and python_version < "3.12" \
+    --hash=sha256:4552f51d852a2b73153ca17167add744874c71f9fed5cd641d043923cd7b17fd \
+    --hash=sha256:790dcaa833b76d59f1444cc6e2fec9ed09df1c12ea3ac499f478b7f33b9a5b0c
 importlib-resources==6.1.1 ; python_version >= "3.8" and python_version < "3.9" \
     --hash=sha256:3893a00122eafde6894c59914446a512f728a0c1a45f9bb9b63721b6bacf0b4a \
     --hash=sha256:e8bf90d8213b486f428c9c39714b920041cb02c184686a3dee24905aaa8105d6
