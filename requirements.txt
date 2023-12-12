@@ -184,9 +184,9 @@ cryptography==41.0.7 ; python_version >= "3.8" and python_version < "4.0" and sy
     --hash=sha256:d6c391c021ab1f7a82da5d8d0b3cee2f4b2c455ec86c8aebbc84837a631ff309 \
     --hash=sha256:e3114da6d7f95d2dee7d3f4eec16dacff819740bbab931aff8648cb13c5ff5e7 \
     --hash=sha256:f983596065a18a2183e7f79ab3fd4c475205b839e02cbc0efbbf9666c4b3083d
-distlib==0.3.7 ; python_version >= "3.8" and python_version < "4.0" \
-    --hash=sha256:2e24928bc811348f0feb63014e97aaae3037f2cf48712d51ae61df7fd6075057 \
-    --hash=sha256:9dafe54b34a028eafd95039d5e5d4851a13734540f1331060d31c9916e7147a8
+distlib==0.3.8 ; python_version >= "3.8" and python_version < "4.0" \
+    --hash=sha256:034db59a0b96f8ca18035f36290806a9a6e6bd9d1ff91e45a7f172eb17e51784 \
+    --hash=sha256:1530ea13e350031b6312d8580ddb6b27a104275a31106523b8f123787f494f64
 dulwich==0.21.7 ; python_version >= "3.8" and python_version < "4.0" \
     --hash=sha256:0fc3078a1ba04c588fabb0969d3530efd5cd1ce2cf248eefb6baf7cbc15fc285 \
     --hash=sha256:10893105c6566fc95bc2a67b61df7cc1e8f9126d02a1df6a8b2b82eb59db8ab9 \
