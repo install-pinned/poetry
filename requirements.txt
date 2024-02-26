@@ -371,9 +371,9 @@ poetry-core==1.9.0 ; python_version >= "3.8" and python_version < "4.0" \
 poetry-plugin-export==1.6.0 ; python_version >= "3.8" and python_version < "4.0" \
     --hash=sha256:091939434984267a91abf2f916a26b00cff4eee8da63ec2a24ba4b17cf969a59 \
     --hash=sha256:2dce6204c9318f1f6509a11a03921fb3f461b201840b59f1c237b6ab454dabcf
-poetry==1.8.0 ; python_version >= "3.8" and python_version < "4.0" \
-    --hash=sha256:27676b30e17c44b836cc002bf3cf8472f01fce886bddb4987caf14aeb4663165 \
-    --hash=sha256:5c418265099b681e399a1521e72d98f407a015cade8ff37260b1359c1afd773c
+poetry==1.8.1 ; python_version >= "3.8" and python_version < "4.0" \
+    --hash=sha256:23519cc45eb3cf48e899145bc762425a141e3afd52ecc53ec443ca635122327f \
+    --hash=sha256:cf133946661025822672422769567980f8e489ed5b6fc170d1025a4d6c9aac29
 ptyprocess==0.7.0 ; python_version >= "3.8" and python_version < "4.0" \
     --hash=sha256:4b41f3967fce3af57cc7e94b888626c18bf37a083e3651ca8feeb66d492fef35 \
     --hash=sha256:5c5d0a3b48ceee0b48485e0c26037c0acd7d29765ca3fbb5cb3831d347423220
