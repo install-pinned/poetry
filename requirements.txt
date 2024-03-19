@@ -278,9 +278,9 @@ idna==3.6 ; python_version >= "3.8" and python_version < "4.0" \
 importlib-metadata==7.0.2 ; python_version >= "3.8" and python_version < "3.12" \
     --hash=sha256:198f568f3230878cb1b44fbd7975f87906c22336dba2e4a7f05278c281fbd792 \
     --hash=sha256:f4bc4c0c070c490abf4ce96d715f68e95923320370efb66143df00199bb6c100
-importlib-resources==6.3.1 ; python_version >= "3.8" and python_version < "3.9" \
-    --hash=sha256:29a3d16556e330c3c8fb8202118c5ff41241cc34cbfb25989bbad226d99b7995 \
-    --hash=sha256:4811639ca7fa830abdb8e9ca0a104dc6ad13de691d9fe0d3173a71304f068159
+importlib-resources==6.3.2 ; python_version >= "3.8" and python_version < "3.9" \
+    --hash=sha256:963eb79649252b0160c1afcfe5a1d3fe3ad66edd0a8b114beacffb70c0674223 \
+    --hash=sha256:f41f4098b16cd140a97d256137cfd943d958219007990b2afb00439fc623f580
 installer==0.7.0 ; python_version >= "3.8" and python_version < "4.0" \
     --hash=sha256:05d1933f0a5ba7d8d6296bb6d5018e7c94fa473ceb10cf198a92ccea19c27b53 \
     --hash=sha256:a26d3e3116289bb08216e0d0f7d925fcef0b0194eedfa0c944bcaaa106c4b631
