@@ -269,9 +269,9 @@ dulwich==0.21.7 ; python_version >= "3.8" and python_version < "4.0" \
 fastjsonschema==2.19.1 ; python_version >= "3.8" and python_version < "4.0" \
     --hash=sha256:3672b47bc94178c9f23dbb654bf47440155d4db9df5f7bc47643315f9c405cd0 \
     --hash=sha256:e3126a94bdc4623d3de4485f8d468a12f02a67921315ddc87836d6e456dc789d
-filelock==3.13.4 ; python_version >= "3.8" and python_version < "4.0" \
-    --hash=sha256:404e5e9253aa60ad457cae1be07c0f0ca90a63931200a47d9b6a6af84fd7b45f \
-    --hash=sha256:d13f466618bfde72bd2c18255e269f72542c6e70e7bac83a0232d6b1cc5c8cf4
+filelock==3.14.0 ; python_version >= "3.8" and python_version < "4.0" \
+    --hash=sha256:43339835842f110ca7ae60f1e1c160714c5a6afd15a2873419ab185334975c0f \
+    --hash=sha256:6ea72da3be9b8c82afd3edcf99f2fffbb5076335a5ae4d03248bb5b6c3eae78a
 idna==3.7 ; python_version >= "3.8" and python_version < "4.0" \
     --hash=sha256:028ff3aadf0609c1fd278d8ea3089299412a7a8b9bd005dd08b9f8285bcb5cfc \
     --hash=sha256:82fee1fc78add43492d3a1898bfa6d8a904cc97d8427f683ed8e798d07761aa0
@@ -380,9 +380,9 @@ ptyprocess==0.7.0 ; python_version >= "3.8" and python_version < "4.0" \
 pycparser==2.22 ; python_version >= "3.8" and python_version < "4.0" and sys_platform == "darwin" or python_version >= "3.8" and python_version < "4.0" and sys_platform == "linux" and platform_python_implementation != "PyPy" \
     --hash=sha256:491c8be9c040f5390f5bf44a5b07752bd07f56edf992381b05c701439eec10f6 \
     --hash=sha256:c3702b6d3dd8c7abc1afa565d7e63d53a1d0bd86cdc24edd75470f4de499cfcc
-pyproject-hooks==1.0.0 ; python_version >= "3.8" and python_version < "4.0" \
-    --hash=sha256:283c11acd6b928d2f6a7c73fa0d01cb2bdc5f07c57a2eeb6e83d5e56b97976f8 \
-    --hash=sha256:f271b298b97f5955d53fb12b72c1fb1948c22c1a6b70b315c54cedaca0264ef5
+pyproject-hooks==1.1.0 ; python_version >= "3.8" and python_version < "4.0" \
+    --hash=sha256:4b37730834edbd6bd37f26ece6b44802fb1c1ee2ece0e54ddff8bfc06db86965 \
+    --hash=sha256:7ceeefe9aec63a1064c18d939bdc3adf2d8aa1988a510afec15151578b232aa2
 pywin32-ctypes==0.2.2 ; python_version >= "3.8" and python_version < "4.0" and sys_platform == "win32" \
     --hash=sha256:3426e063bdd5fd4df74a14fa3cf80a0b42845a87e1d1e81f6549f9daec593a60 \
     --hash=sha256:bf490a1a709baf35d688fe0ecf980ed4de11d2b3e37b51e5442587a75d9957e7
@@ -501,9 +501,9 @@ trove-classifiers==2024.4.10 ; python_version >= "3.8" and python_version < "4.0
 urllib3==2.2.1 ; python_version >= "3.8" and python_version < "4.0" \
     --hash=sha256:450b20ec296a467077128bff42b73080516e71b56ff59a60a02bef2232c4fa9d \
     --hash=sha256:d0570876c61ab9e520d776c38acbbb5b05a776d3f9ff98a5c8fd5162a444cf19
-virtualenv==20.26.0 ; python_version >= "3.8" and python_version < "4.0" \
-    --hash=sha256:0846377ea76e818daaa3e00a4365c018bc3ac9760cbb3544de542885aad61fb3 \
-    --hash=sha256:ec25a9671a5102c8d2657f62792a27b48f016664c6873f6beed3800008577210
+virtualenv==20.26.1 ; python_version >= "3.8" and python_version < "4.0" \
+    --hash=sha256:604bfdceaeece392802e6ae48e69cec49168b9c5f4a44e483963f9242eb0e78b \
+    --hash=sha256:7aa9982a728ae5892558bff6a2839c00b9ed145523ece2274fad6f414690ae75
 xattr==1.1.0 ; python_version >= "3.8" and python_version < "4.0" and sys_platform == "darwin" \
     --hash=sha256:00d2b415cf9d6a24112d019e721aa2a85652f7bbc9f3b9574b2d1cd8668eb491 \
     --hash=sha256:0683dae7609f7280b0c89774d00b5957e6ffcb181c6019c46632b389706b77e6 \
