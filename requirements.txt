@@ -371,9 +371,9 @@ poetry-core==1.9.0 ; python_version >= "3.8" and python_version < "4.0" \
 poetry-plugin-export==1.7.1 ; python_version >= "3.8" and python_version < "4.0" \
     --hash=sha256:b2258e53ae0d369a73806f957ed0e726eb95c571a0ce8b1f273da686528cc1da \
     --hash=sha256:cf62cfb6218a904290ba6db3bc1a24aa076d10f81c48c6e48b2ded430131e22e
-poetry==1.8.2 ; python_version >= "3.8" and python_version < "4.0" \
-    --hash=sha256:49cceb3838104647c3e1021f3a4f13c6053704cc18d33f849a90fe687a29cb73 \
-    --hash=sha256:b42b400d9a803af6e788a30a6f3e9998020b77860e28df20647eb10b6f414910
+poetry==1.8.3 ; python_version >= "3.8" and python_version < "4.0" \
+    --hash=sha256:67f4eb68288eab41e841cc71a00d26cf6bdda9533022d0189a145a34d0a35f48 \
+    --hash=sha256:88191c69b08d06f9db671b793d68f40048e8904c0718404b63dcc2b5aec62d13
 ptyprocess==0.7.0 ; python_version >= "3.8" and python_version < "4.0" \
     --hash=sha256:4b41f3967fce3af57cc7e94b888626c18bf37a083e3651ca8feeb66d492fef35 \
     --hash=sha256:5c5d0a3b48ceee0b48485e0c26037c0acd7d29765ca3fbb5cb3831d347423220
@@ -492,9 +492,9 @@ shellingham==1.5.4 ; python_version >= "3.8" and python_version < "4.0" \
 tomli==2.0.1 ; python_version >= "3.8" and python_version < "3.11" \
     --hash=sha256:939de3e7a6161af0c887ef91b7d41a53e7c5a1ca976325f429cb46ea9bc30ecc \
     --hash=sha256:de526c12914f0c550d15924c62d72abc48d6fe7364aa87328337a31007fe8a4f
-tomlkit==0.12.4 ; python_version >= "3.8" and python_version < "4.0" \
-    --hash=sha256:5cd82d48a3dd89dee1f9d64420aa20ae65cfbd00668d6f094d7578a78efbb77b \
-    --hash=sha256:7ca1cfc12232806517a8515047ba66a19369e71edf2439d0f5824f91032b6cc3
+tomlkit==0.12.5 ; python_version >= "3.8" and python_version < "4.0" \
+    --hash=sha256:af914f5a9c59ed9d0762c7b64d3b5d5df007448eb9cd2edc8a46b1eafead172f \
+    --hash=sha256:eef34fba39834d4d6b73c9ba7f3e4d1c417a4e56f89a7e96e090dd0d24b8fb3c
 trove-classifiers==2024.4.10 ; python_version >= "3.8" and python_version < "4.0" \
     --hash=sha256:49f40bb6a746b72a1cba4f8d55ee8252169cda0f70802e3fd24f04b7fb25a492 \
     --hash=sha256:678bd6fcc5218d72e3304e27a608acc9b91e17bd00c3f3d8c968497c843ad98b
