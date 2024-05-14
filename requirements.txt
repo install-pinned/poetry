@@ -501,9 +501,9 @@ trove-classifiers==2024.4.10 ; python_version >= "3.8" and python_version < "4.0
 urllib3==2.2.1 ; python_version >= "3.8" and python_version < "4.0" \
     --hash=sha256:450b20ec296a467077128bff42b73080516e71b56ff59a60a02bef2232c4fa9d \
     --hash=sha256:d0570876c61ab9e520d776c38acbbb5b05a776d3f9ff98a5c8fd5162a444cf19
-virtualenv==20.26.1 ; python_version >= "3.8" and python_version < "4.0" \
-    --hash=sha256:604bfdceaeece392802e6ae48e69cec49168b9c5f4a44e483963f9242eb0e78b \
-    --hash=sha256:7aa9982a728ae5892558bff6a2839c00b9ed145523ece2274fad6f414690ae75
+virtualenv==20.26.2 ; python_version >= "3.8" and python_version < "4.0" \
+    --hash=sha256:82bf0f4eebbb78d36ddaee0283d43fe5736b53880b8a8cdcd37390a07ac3741c \
+    --hash=sha256:a624db5e94f01ad993d476b9ee5346fdf7b9de43ccaee0e0197012dc838a0e9b
 xattr==1.1.0 ; python_version >= "3.8" and python_version < "4.0" and sys_platform == "darwin" \
     --hash=sha256:00d2b415cf9d6a24112d019e721aa2a85652f7bbc9f3b9574b2d1cd8668eb491 \
     --hash=sha256:0683dae7609f7280b0c89774d00b5957e6ffcb181c6019c46632b389706b77e6 \
