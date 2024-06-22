@@ -269,9 +269,9 @@ dulwich==0.21.7 ; python_version >= "3.8" and python_version < "4.0" \
 fastjsonschema==2.20.0 ; python_version >= "3.8" and python_version < "4.0" \
     --hash=sha256:3d48fc5300ee96f5d116f10fe6f28d938e6008f59a6a025c2649475b87f76a23 \
     --hash=sha256:5875f0b0fa7a0043a91e93a9b8f793bcbbba9691e7fd83dca95c28ba26d21f0a
-filelock==3.15.3 ; python_version >= "3.8" and python_version < "4.0" \
-    --hash=sha256:0151273e5b5d6cf753a61ec83b3a9b7d8821c39ae9af9d7ecf2f9e2f17404103 \
-    --hash=sha256:e1199bf5194a2277273dacd50269f0d87d0682088a3c561c15674ea9005d8635
+filelock==3.15.4 ; python_version >= "3.8" and python_version < "4.0" \
+    --hash=sha256:2207938cbc1844345cb01a5a95524dae30f0ce089eba5b00378295a17e3e90cb \
+    --hash=sha256:6ca1fffae96225dab4c6eaf1c4f4f28cd2568d3ec2a44e15a08520504de468e7
 idna==3.7 ; python_version >= "3.8" and python_version < "4.0" \
     --hash=sha256:028ff3aadf0609c1fd278d8ea3089299412a7a8b9bd005dd08b9f8285bcb5cfc \
     --hash=sha256:82fee1fc78add43492d3a1898bfa6d8a904cc97d8427f683ed8e798d07761aa0
