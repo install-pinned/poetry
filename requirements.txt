@@ -498,9 +498,9 @@ tomli==2.0.1 ; python_version >= "3.8" and python_version < "3.11" \
 tomlkit==0.12.5 ; python_version >= "3.8" and python_version < "4.0" \
     --hash=sha256:af914f5a9c59ed9d0762c7b64d3b5d5df007448eb9cd2edc8a46b1eafead172f \
     --hash=sha256:eef34fba39834d4d6b73c9ba7f3e4d1c417a4e56f89a7e96e090dd0d24b8fb3c
-trove-classifiers==2024.7.1 ; python_version >= "3.8" and python_version < "4.0" \
-    --hash=sha256:3529595c443758741a8e34af06704d7468fd92ad77d17f9159a6f3a6815a64c2 \
-    --hash=sha256:380dcc30d5df74933223108c58a035e8bacab1de39977692f8fe7b37f0531d54
+trove-classifiers==2024.7.2 ; python_version >= "3.8" and python_version < "4.0" \
+    --hash=sha256:8328f2ac2ce3fd773cbb37c765a0ed7a83f89dc564c7d452f039b69249d0ac35 \
+    --hash=sha256:ccc57a33717644df4daca018e7ec3ef57a835c48e96a1e71fc07eb7edac67af6
 urllib3==2.2.2 ; python_version >= "3.8" and python_version < "4.0" \
     --hash=sha256:a448b2f64d686155468037e1ace9f2d2199776e17f0a46610480d311f73e3472 \
     --hash=sha256:dd505485549a7a552833da5e6063639d0d177c04f23bc3864e41e5dc5f612168
