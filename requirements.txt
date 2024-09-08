@@ -372,9 +372,9 @@ pexpect==4.9.0 ; python_version >= "3.8" and python_version < "4.0" \
 pkginfo==1.11.1 ; python_version >= "3.8" and python_version < "4.0" \
     --hash=sha256:2e0dca1cf4c8e39644eed32408ea9966ee15e0d324c62ba899a393b3c6b467aa \
     --hash=sha256:bfa76a714fdfc18a045fcd684dbfc3816b603d9d075febef17cb6582bea29573
-platformdirs==4.3.1 ; python_version >= "3.8" and python_version < "4.0" \
-    --hash=sha256:63b79589009fa8159973601dd4563143396b35c5f93a58b36f9049ff046949b1 \
-    --hash=sha256:facaa5a3c57aa1e053e3da7b49e0cc31fe0113ca42a4659d5c2e98e545624afe
+platformdirs==4.3.2 ; python_version >= "3.8" and python_version < "4.0" \
+    --hash=sha256:9e5e27a08aa095dd127b9f2e764d74254f482fef22b0970773bfba79d091ab8c \
+    --hash=sha256:eb1c8582560b34ed4ba105009a4badf7f6f85768b30126f351328507b2beb617
 poetry-core==1.9.0 ; python_version >= "3.8" and python_version < "4.0" \
     --hash=sha256:4e0c9c6ad8cf89956f03b308736d84ea6ddb44089d16f2adc94050108ec1f5a1 \
     --hash=sha256:fa7a4001eae8aa572ee84f35feb510b321bd652e5cf9293249d62853e1f935a2
