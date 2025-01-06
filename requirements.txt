@@ -522,9 +522,9 @@ tomli==2.2.1 ; python_full_version < '3.11' \
 tomlkit==0.13.2 \
     --hash=sha256:7a974427f6e119197f670fbbbeae7bef749a6c14e793db934baefc1b5f03efde \
     --hash=sha256:fff5fe59a87295b278abd31bec92c15d9bc4a06885ab12bcea52c71119392e79
-trove-classifiers==2024.10.21.16 \
-    --hash=sha256:0fb11f1e995a757807a8ef1c03829fbd4998d817319abcef1f33165750f103be \
-    --hash=sha256:17cbd055d67d5e9d9de63293a8732943fabc21574e4c7b74edf112b4928cf5f3
+trove-classifiers==2025.1.6.15 \
+    --hash=sha256:49ab0326e000c54be6adc945d8fd618265c27de1296cf17caf9106fef96d2da4 \
+    --hash=sha256:cd8e14d53158c72b68f7adcd119e3b4c7271d282999d3a8ec7486733a6202e4d
 urllib3==2.2.3 \
     --hash=sha256:ca899ca043dcb1bafa3e262d73aa25c465bfb49e0bd9dd5d59f1d0acba2f8fac \
     --hash=sha256:e7d814a81dad81e6caf2ec9fdedb284ecc9c73076b62654547cc64ccdcae26e9
