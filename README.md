@@ -20,7 +20,7 @@ In your GitHub Actions workflow, use this action like so:
 
 ```yaml
       - name: Install poetry from PyPI
-        uses: install-pinned/poetry@2230de6415abe16c7a0936ad96627d0413ff222c  # 2.0.0
+        uses: install-pinned/poetry@1ad7efb9a39f86337663eeae493b58b4d53aaddc  # 2.0.0
 ```
 
 You can [set up Dependabot](https://docs.github.com/en/code-security/dependabot/working-with-dependabot/keeping-your-actions-up-to-date-with-dependabot#example-dependabotyml-file-for-github-actions)
