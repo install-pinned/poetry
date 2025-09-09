@@ -358,9 +358,9 @@ poetry-plugin-export==1.8.0 \
 ptyprocess==0.7.0 \
     --hash=sha256:4b41f3967fce3af57cc7e94b888626c18bf37a083e3651ca8feeb66d492fef35 \
     --hash=sha256:5c5d0a3b48ceee0b48485e0c26037c0acd7d29765ca3fbb5cb3831d347423220
-pycparser==2.22 ; (platform_python_implementation != 'PyPy' and sys_platform == 'linux') or sys_platform == 'darwin' \
-    --hash=sha256:491c8be9c040f5390f5bf44a5b07752bd07f56edf992381b05c701439eec10f6 \
-    --hash=sha256:c3702b6d3dd8c7abc1afa565d7e63d53a1d0bd86cdc24edd75470f4de499cfcc
+pycparser==2.23 ; (platform_python_implementation != 'PyPy' and sys_platform == 'linux') or sys_platform == 'darwin' \
+    --hash=sha256:78816d4f24add8f10a06d6f05b4d424ad9e96cfebf68a4ddc99c65c0720d00c2 \
+    --hash=sha256:e5c6e8d3fbad53479cab09ac03729e0a9faf2bee3db8208a550daf5af81a5934
 pyproject-hooks==1.2.0 \
     --hash=sha256:1e859bd5c40fae9448642dd871adf459e5e2084186e8d2c2a79a824c970da1f8 \
     --hash=sha256:9e5c6bfa8dcc30091c74b0cf803c81fdd29d94f01992a7707bc97babb1141913
@@ -524,9 +524,9 @@ tomli==2.2.1 ; python_full_version < '3.11' \
 tomlkit==0.13.3 \
     --hash=sha256:430cf247ee57df2b94ee3fbe588e71d362a941ebb545dec29b53961d61add2a1 \
     --hash=sha256:c89c649d79ee40629a9fda55f8ace8c6a1b42deb912b2a8fd8d942ddadb606b0
-trove-classifiers==2025.9.8.13 \
-    --hash=sha256:2de91c8f286b7fea55072061924f69e7f3bdf7a9cb63719c90090e41c6657d3a \
-    --hash=sha256:f784db2f859ee1ffa168adaf0868006c20dee5e673a3ff813a2cd51ef2c465f9
+trove-classifiers==2025.9.9.12 \
+    --hash=sha256:6a00942fc023f4f383af3254b4ed818d7fa7923a3c7c03b0e71da2ce71b538ab \
+    --hash=sha256:d449bd9d4715105657732d6dd1f46aa1595278d01ef1716ca164b35867135a4f
 typing-extensions==4.13.2 ; python_full_version < '3.11' \
     --hash=sha256:a439e7c04b49fec3e5d3e2beaa21755cadbbdc391694e28ccdd36ca4a1408f8c \
     --hash=sha256:e6c81219bd689f51865d9e372991c540bda33a0379d5573cddb9a3a23f7caaef
