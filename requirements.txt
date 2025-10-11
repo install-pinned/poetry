@@ -621,9 +621,9 @@ typing-extensions==4.13.2 ; (python_full_version < '3.8' and platform_python_imp
 urllib3==2.2.3 ; platform_python_implementation != 'PyPy' or python_full_version >= '3.8' \
     --hash=sha256:ca899ca043dcb1bafa3e262d73aa25c465bfb49e0bd9dd5d59f1d0acba2f8fac \
     --hash=sha256:e7d814a81dad81e6caf2ec9fdedb284ecc9c73076b62654547cc64ccdcae26e9
-virtualenv==20.34.0 ; platform_python_implementation != 'PyPy' or python_full_version >= '3.8' \
-    --hash=sha256:341f5afa7eee943e4984a9207c025feedd768baff6753cd660c857ceb3e36026 \
-    --hash=sha256:44815b2c9dee7ed86e387b842a84f20b93f7f417f95886ca1996a72a4138eb1a
+virtualenv==20.35.3 ; platform_python_implementation != 'PyPy' or python_full_version >= '3.8' \
+    --hash=sha256:4f1a845d131133bdff10590489610c98c168ff99dc75d6c96853801f7f67af44 \
+    --hash=sha256:63d106565078d8c8d0b206d48080f938a8b25361e19432d2c9db40d2899c810a
 xattr==1.2.0 ; (platform_python_implementation != 'PyPy' and sys_platform == 'darwin') or (python_full_version >= '3.8' and sys_platform == 'darwin') \
     --hash=sha256:00c26c14c90058338993bb2d3e1cebf562e94ec516cafba64a8f34f74b9d18b4 \
     --hash=sha256:109b11fb3f73a0d4e199962f11230ab5f462e85a8021874f96c1732aa61148d5 \
