@@ -663,9 +663,9 @@ typing-extensions==4.13.2 ; python_full_version < '3.11' \
 urllib3==2.2.3 \
     --hash=sha256:ca899ca043dcb1bafa3e262d73aa25c465bfb49e0bd9dd5d59f1d0acba2f8fac \
     --hash=sha256:e7d814a81dad81e6caf2ec9fdedb284ecc9c73076b62654547cc64ccdcae26e9
-virtualenv==20.36.1 \
-    --hash=sha256:575a8d6b124ef88f6f51d56d656132389f961062a9177016a50e4f507bbcc19f \
-    --hash=sha256:8befb5c81842c641f8ee658481e42641c68b5eab3521d8e092d18320902466ba
+virtualenv==20.37.0 \
+    --hash=sha256:5d3951c32d57232ae3569d4de4cc256c439e045135ebf43518131175d9be435d \
+    --hash=sha256:6f7e2064ed470aa7418874e70b6369d53b66bcd9e9fd5389763e96b6c94ccb7c
 xattr==1.2.0 ; sys_platform == 'darwin' \
     --hash=sha256:00c26c14c90058338993bb2d3e1cebf562e94ec516cafba64a8f34f74b9d18b4 \
     --hash=sha256:109b11fb3f73a0d4e199962f11230ab5f462e85a8021874f96c1732aa61148d5 \
