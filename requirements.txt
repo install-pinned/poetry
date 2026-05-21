@@ -670,9 +670,9 @@ tomli==2.4.1 ; python_full_version < '3.11' \
 tomlkit==0.13.3 \
     --hash=sha256:430cf247ee57df2b94ee3fbe588e71d362a941ebb545dec29b53961d61add2a1 \
     --hash=sha256:c89c649d79ee40629a9fda55f8ace8c6a1b42deb912b2a8fd8d942ddadb606b0
-trove-classifiers==2026.5.20.13 \
-    --hash=sha256:39488311115da459eba824bc928291723e29fb876f515af46933c5d5c617202c \
-    --hash=sha256:ba51ff2e5c24bd5a23e17a8170acb7940ab677a5f90eed1ff5b03ca57be11732
+trove-classifiers==2026.5.20.19 \
+    --hash=sha256:6e611993987ca9326968ad70452733dadd31471599d39896045b28970a9bb81e \
+    --hash=sha256:7a173916960d0635fcbf610550d2c27bcc9125164d6f397adf46fc1ef6455c7c
 typing-extensions==4.13.2 ; python_full_version < '3.11' \
     --hash=sha256:a439e7c04b49fec3e5d3e2beaa21755cadbbdc391694e28ccdd36ca4a1408f8c \
     --hash=sha256:e6c81219bd689f51865d9e372991c540bda33a0379d5573cddb9a3a23f7caaef
