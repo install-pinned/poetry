@@ -310,9 +310,9 @@ cryptography==47.0.0 ; (python_full_version < '3.9' and sys_platform == 'linux')
     --hash=sha256:f5c15764f261394b22aef6b00252f5195f46f2ca300bec57149474e2538b31f8 \
     --hash=sha256:f7db373287273d8af1414cf95dc4118b13ffdc62be521997b0f2b270771fef50 \
     --hash=sha256:f9a034b642b960767fb343766ae5ba6ad653f2e890ddd82955aef288ffea8736
-distlib==0.4.2 \
-    --hash=sha256:baeb401c90f27acd15c4861ae0847d1e731c27ac3dbf4210643ba61fa1e813db \
-    --hash=sha256:ca4cb11e5d746b5ec13c199cbf19ae27a241f89702b54e153a74332955446067
+distlib==0.4.3 \
+    --hash=sha256:4b0ce306c966eb73bc3a7b6abad017c556dadd92c44701562cd528ac7fde4d5b \
+    --hash=sha256:f152097224a0ae24be5a0f6bae1b9359af82133bce63f98a95f86cae1aede9ed
 dulwich==0.21.7 \
     --hash=sha256:0fc3078a1ba04c588fabb0969d3530efd5cd1ce2cf248eefb6baf7cbc15fc285 \
     --hash=sha256:12d61334a575474e707614f2e93d6ed4cdae9eb47214f9277076d9e5615171d3 \
